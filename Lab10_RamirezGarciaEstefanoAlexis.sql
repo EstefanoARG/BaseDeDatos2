@@ -98,7 +98,7 @@ ALTER TABLE job_history ADD (
 -- ============================
 -- 2. INSERCIÓN DE DATOS DE EJEMPLO PARA CADA TABLA
 -- ============================
--- Regiones (sólo 4 ejemplo)
+-- Regiones 
 INSERT INTO regions VALUES (1, 'Europa');
 INSERT INTO regions VALUES (2, 'Americas');
 INSERT INTO regions VALUES (3, 'Asia');
@@ -144,7 +144,7 @@ INSERT INTO job_history VALUES (106, SYSDATE-50, SYSDATE-10, 'SH_CLERK', 50);
 COMMIT;
 
 -- ============================
--- 3. EJERCICIOS DE BLOQUES ANÓNIMOS PL/SQL (SEGÚN LA PRACTICA)
+-- 3. EJERCICIOS DE BLOQUES ANÓNIMOS PL/SQL 
 -- ============================
 
 -- EJERCICIO 1: TRANSACCIONES CON SAVEPOINT Y ROLLBACK
